@@ -1,6 +1,6 @@
 import baseSpiders.br as br
 
-class br1Spider(br.brSpider):
+class br3Spider(br.brSpider):
     name = "bayern3"
     start_urls = ['https://www.bayern3.radio/playlist/']
 
