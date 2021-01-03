@@ -6,10 +6,10 @@ class baseSpider(scrapy.Spider):
         playlist = []
         loop = self.get_loop(response)
         for item in loop:
-            date = self.get_date(item)
-            time = self.get_time(item)
-            artist = self.get_artist(item)
-            title = self.get_title(item)
+            date = self.get_date(response,item)
+            time = self.get_time(response,item)
+            artist = self.get_artist(response,item)
+            title = self.get_title(response,item)
             playlist.append({'date': date, 'time': time, 'artist': artist, 'title': title})
 
         output = {
