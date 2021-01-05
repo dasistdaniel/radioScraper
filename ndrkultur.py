@@ -1,5 +1,5 @@
 import baseSpiders.ndr as ndr
 
-class ndrwellenordniedersachsenSpider(ndr.ndrSpider):
-    name = "ndrwellenord"
-    start_urls = ['https://www.ndr.de/wellenord/programm/titelliste1204.html']
+class ndrkulturSpider(ndr.ndrSpider):
+    name = "ndrkultur"
+    start_urls = ['https://www.ndr.de/ndrkultur/programm/titelliste1212.html']
