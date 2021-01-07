@@ -2,6 +2,11 @@ import scrapy
 import json
 
 class baseSpider(scrapy.Spider):
+    def gerdatetoiso(self, date):
+        dateparts = date.split('.')
+        newdate = f"{dateparts[2]}-{dateparts[1]}-{dateparts[0]}"
+        return newdate
+
     def parse(self, response):
         playlist = []
         loop = self.get_loop(response)
@@ -22,3 +27,4 @@ class baseSpider(scrapy.Spider):
 
         #print(output)
         print(json.dumps(output,indent=4,ensure_ascii=False))
+

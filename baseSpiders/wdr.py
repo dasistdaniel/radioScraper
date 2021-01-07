@@ -6,7 +6,7 @@ class wdrSpider(baseSpiders.baseSpider.baseSpider):
     
     def get_date(self, response, item, counter):
         datetime = item.css('th::text').extract()
-        return datetime[0].replace(",","")
+        return self.gerdatetoiso(datetime[0].replace(",",""))
     
     def get_time(self, response, item, counter):
         datetime = item.css('th::text').extract()

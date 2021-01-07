@@ -5,7 +5,7 @@ class brSpider(baseSpiders.baseSpider.baseSpider):
         return response.css('dd.audio')
     
     def get_date(self, response, item, counter):
-        return response.css('li.playlist_navi_head::text').extract_first().strip()[-10:]
+        return self.gerdatetoiso(response.css('li.playlist_navi_head::text').extract_first().strip()[-10:])
     
     def get_time(self, response, item, counter):
         css = f"dt.time:nth-child({1 + counter * 2})::text"

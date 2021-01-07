@@ -5,7 +5,7 @@ class ndrSpider(baseSpiders.baseSpider.baseSpider):
         return response.css('li.program')
     
     def get_date(self, response, item, counter):
-        return response.css('option:checked::text').extract_first()
+        return self.gerdatetoiso(response.css('option:checked::text').extract_first())
     
     def get_time(self, response, item, counter):
         return item.css('div.timeandplay > strong::text').extract_first() + ":00"
