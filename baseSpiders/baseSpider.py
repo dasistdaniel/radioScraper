@@ -16,8 +16,9 @@ class baseSpider(scrapy.Spider):
             time = self.get_time(response, item, counter)
             artist = self.get_artist(response, item, counter)
             title = self.get_title(response, item, counter)
-            playlist.append({'date': date, 'time': time, 'artist': artist, 'title': title})
-            counter = counter + 1
+            if (date != None and time != None and artist != None and title != None):
+                playlist.append({'date': date, 'time': time, 'artist': artist, 'title': title})
+                counter = counter + 1
 
         output = {
             'name': self.name, 
