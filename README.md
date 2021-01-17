@@ -66,11 +66,11 @@ Radiosendern auszulesen und die Daten in einem einfachen JSON Format bereitzuste
 - ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) Radio Eins (WTF ist das?)
 
 ### Saarländischer Rundfunk (SR)
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) Antenne Saar
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) SR 1 Europawelle
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) SR 2 Kulturradio
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) SR 3 Saarlandwelle
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) Unser Ding
+- ![Awesome Badges](https://img.shields.io/badge/no%20playlist-red.svg) Antenne Saar
+- ![Awesome Badges](https://img.shields.io/badge/working-green.svg) SR 1 Europawelle
+- ![Awesome Badges](https://img.shields.io/badge/working-green.svg) SR 2 Kulturradio
+- ![Awesome Badges](https://img.shields.io/badge/working-green.svg) SR 3 Saarlandwelle
+- ![Awesome Badges](https://img.shields.io/badge/no%20playlist-red.svg) Unser Ding
 
 ### Südwestrundfunk (SWR)
 - ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) Dasding
