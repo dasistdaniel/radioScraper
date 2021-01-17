@@ -58,12 +58,12 @@ Radiosendern auszulesen und die Daten in einem einfachen JSON Format bereitzuste
 - ![Awesome Badges](https://img.shields.io/badge/working-green.svg) Bremen Vier
 
 ### Rundfunk Berlin-Brandenburg (rbb)
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) Antenne Brandenburg
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) Fritz
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) Inforadio
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) rbbKultur
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) rbb 88,8
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) Radio Eins
+- ![Awesome Badges](https://img.shields.io/badge/working-green.svg) Antenne Brandenburg
+- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) Fritz (Keine Zeitstempel)
+- ![Awesome Badges](https://img.shields.io/badge/no%20playlist-red.svg) Inforadio
+- ![Awesome Badges](https://img.shields.io/badge/no%20playlist-red.svg) rbbKultur
+- ![Awesome Badges](https://img.shields.io/badge/working-green.svg) rbb 88,8
+- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) Radio Eins (WTF ist das?)
 
 ### Saarländischer Rundfunk (SR)
 - ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) Antenne Saar
