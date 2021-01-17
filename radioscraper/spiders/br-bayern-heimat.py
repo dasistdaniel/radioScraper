@@ -1,4 +1,4 @@
-import radioscraper.spiders.baseSpiders.baseBR br
+import radioscraper.spiders.baseSpiders.baseBR as br
 
 class brheimatSpider(br.brSpider):
     name = "br-bayern-heimat"
