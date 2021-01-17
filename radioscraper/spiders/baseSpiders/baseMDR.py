@@ -2,6 +2,10 @@ import radioscraper.spiders.baseSpiders.baseSpider as base
 import json
 
 class mdrSpider(base.baseSpider):
+    custom_settings = {
+        'ROBOTSTXT_OBEY': False
+    }
+
     network = 'mdr'
     def get_loop(self, response):
         return json.loads(response.text)['Songs']
