@@ -3,10 +3,10 @@ import baseSpiders.baseSpider
 class rbSpider(baseSpiders.baseSpider.baseSpider):
     def get_loop(self, response):
         return response.css('tr:not(:first-child)')
-    
+
     def get_date(self, response, item, counter):
         return response.css('#titelsuche > div:nth-child(2) > select > option:nth-child(1)::attr(value)').extract_first().strip()
-    
+
     def get_time(self, response, item, counter):
         return item.css("td:nth-child(1)::text").extract_first()# + ":00"
 

@@ -5,7 +5,7 @@ class bremennextSpider(rb.rbSpider):
     start_urls = ['https://www.radiobremen.de/bremennext/titelsuche/']
 
     def get_loop(self, response):
-        return response.css('body > section.pagecontent > div > div > div > ul > li')
+        return response.css('.titelsuche>ul>li')
     
     def get_date(self, response, item, counter):
         return self.gerdatetoiso(response.css("#titelsuche-form > div:nth-child(1) > div > select > option:nth-child(1)::attr(value)").extract_first())
