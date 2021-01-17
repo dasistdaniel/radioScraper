@@ -17,7 +17,6 @@ class baseSpider(scrapy.Spider):
             artist = self.get_artist(response, item, counter)
             title = self.get_title(response, item, counter)
             if date != None and time != None and artist != None and title != None:
-                #playlist.append({'date': date, 'time': time, 'artist': artist, 'title': title})
                 yield {
                     'network': self.network,
                     'station': self.station,
@@ -26,16 +25,4 @@ class baseSpider(scrapy.Spider):
                     'artist': artist,
                     'title': title,
                 } 
-
                 counter = counter + 1
-
-        #output = {
-        #    'name': self.name, 
-        #    'url': self.start_urls[0],
-        #    'result': playlist
-        #}
-
-        #print(output)
-        #print(json.dumps(output,indent=4,ensure_ascii=False))
-     
-
