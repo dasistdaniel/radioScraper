@@ -1,6 +1,6 @@
-import radioscraper.spiders.baseSpiders.baseRB as rb
+import radioscraper.spiders.baseSpiders.baseRB as network
 
-class bremennextSpider(rb.rbSpider):
+class stationSpider(network.networkRBSpider):
     name = "rb-bremennext"
     station = "Bremen Next"
     start_urls = ['https://www.radiobremen.de/bremennext/titelsuche/']

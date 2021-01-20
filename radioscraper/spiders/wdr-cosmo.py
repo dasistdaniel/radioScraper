@@ -1,6 +1,6 @@
-import radioscraper.spiders.baseSpiders.baseWDR as wdr
+import radioscraper.spiders.baseSpiders.baseWDR as network
 
-class cosmoSpider(wdr.wdrSpider):
+class stationSpider(network.networkWDRSpider):
     name = "wdr-cosmo"
     station = "cosmo"
     start_urls = ['https://www1.wdr.de/radio/cosmo/musik/playlist/index.html']

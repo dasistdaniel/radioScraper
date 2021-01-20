@@ -1,7 +1,7 @@
 import radioscraper.spiders.baseSpiders.baseSpider as base
 import datetime
 
-class srSpider(base.baseSpider):
+class networkSRSpider(base.baseSpider):
     network = 'sr'
     def get_loop(self, response):
         return response.css('.musicResearch__Item')

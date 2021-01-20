@@ -1,6 +1,6 @@
-import radioscraper.spiders.baseSpiders.baseBR as br
+import radioscraper.spiders.baseSpiders.baseBR as network
 
-class br1Spider(br.brSpider):
+class stationSpider(network.networkBRSpider):
     name = "br-puls"
     station = "Puls"
     start_urls = ['https://www.br.de/puls/welle116.html']

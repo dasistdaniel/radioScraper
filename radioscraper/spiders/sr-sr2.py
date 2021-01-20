@@ -1,6 +1,6 @@
-import radioscraper.spiders.baseSpiders.baseSR as sr
+import radioscraper.spiders.baseSpiders.baseSR as network
 
-class sr2Spider(sr.srSpider):
+class stationSpider(network.networkSRSpider):
     name = "sr-sr2"
     station = "SR2"
     start_urls = ['https://musikrecherche.sr.de/sr2sophora/musicresearch.php']

@@ -1,7 +1,7 @@
-import radioscraper.spiders.baseSpiders.baseRB as rb
 import datetime
+import radioscraper.spiders.baseSpiders.baseRB as network
 
-class bremen1Spider(rb.rbSpider):
+class stationSpider(network.networkRBSpider):
     d = datetime.datetime.now()
     name = "rb-bremen1"
     station = "Bremen Eins"

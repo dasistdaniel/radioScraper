@@ -1,6 +1,6 @@
 import radioscraper.spiders.baseSpiders.baseSpider as base
 
-class brSpider(base.baseSpider):
+class networkBRSpider(base.baseSpider):
     network = 'br'
     def get_loop(self, response):
         return response.css('dd.audio')

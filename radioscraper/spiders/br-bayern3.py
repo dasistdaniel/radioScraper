@@ -1,6 +1,6 @@
-import radioscraper.spiders.baseSpiders.baseBR as br
+import radioscraper.spiders.baseSpiders.baseBR as network
 
-class bayern3Spider(br.brSpider):
+class stationSpider(network.networkBRSpider):
     name = "br-bayern3"
     station = "Bayern 3"
     start_urls = ['https://www.bayern3.radio/playlist/']

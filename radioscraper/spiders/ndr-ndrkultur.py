@@ -1,6 +1,6 @@
-import radioscraper.spiders.baseSpiders.baseNDR as ndr
+import radioscraper.spiders.baseSpiders.baseNDR as network
 
-class ndrkulturSpider(ndr.ndrSpider):
+class stationSpider(network.networkNDRSpider):
     name = "ndr-ndrkultur"
     station = "NDR Kultur"
     start_urls = ['https://www.ndr.de/ndrkultur/programm/titelliste1212.html']

@@ -1,6 +1,6 @@
 import radioscraper.spiders.baseSpiders.baseSpider as base
 
-class rbbSpider(base.baseSpider):
+class networkRBBSpider(base.baseSpider):
     network = 'rbb'
     def get_loop(self, response):
         return response.css('tr:not(:first-child)')

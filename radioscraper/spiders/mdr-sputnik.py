@@ -1,7 +1,7 @@
-import radioscraper.spiders.baseSpiders.baseMDR as mdr
 import json
+import radioscraper.spiders.baseSpiders.baseMDR as network
 
-class sputnikSpider(mdr.mdrSpider):
+class stationSpider(network.networkMDRSpider):
     name = "mdr-sputnik"
     station = "Sputnik"
     start_urls = ['https://www.sputnik.de/xaps2/frontend/utils/titellistenproxy/data?amount=10']

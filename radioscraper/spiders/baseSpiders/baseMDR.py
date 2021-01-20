@@ -1,7 +1,7 @@
 import radioscraper.spiders.baseSpiders.baseSpider as base
 import json
 
-class mdrSpider(base.baseSpider):
+class networkMDRSpider(base.baseSpider):
     custom_settings = {
         'ROBOTSTXT_OBEY': False
     }

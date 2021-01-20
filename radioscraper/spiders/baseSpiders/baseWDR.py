@@ -1,6 +1,6 @@
 import radioscraper.spiders.baseSpiders.baseSpider as base
 
-class wdrSpider(base.baseSpider):
+class networkWDRSpider(base.baseSpider):
     network = 'wdr'
     def get_loop(self, response):
         return response.css('tr.data:not(:first-child)')

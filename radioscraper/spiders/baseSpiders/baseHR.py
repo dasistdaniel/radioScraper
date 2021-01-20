@@ -1,6 +1,6 @@
 import radioscraper.spiders.baseSpiders.baseSpider as base
 
-class hrSpider(base.baseSpider):
+class networkHRSpider(base.baseSpider):
     network = 'hr'
     def get_loop(self, response):
         return response.css('li.c-epgBroadcast__item')

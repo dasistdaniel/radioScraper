@@ -1,8 +1,8 @@
-import radioscraper.spiders.baseSpiders.baseRB as rb
 import datetime
 import locale
+import radioscraper.spiders.baseSpiders.baseRB as network
 
-class bremen4Spider(rb.rbSpider):
+class stationSpider(network.networkRBSpider):
     name = "rb-bemen4"
     station = "Bremen Vier"
     start_urls = ['https://www.bremenvier.de/programm/titelsuche-100.html']

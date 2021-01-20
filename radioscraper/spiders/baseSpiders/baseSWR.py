@@ -1,7 +1,7 @@
 import radioscraper.spiders.baseSpiders.baseSpider as base
 import json
 
-class swrSpider(base.baseSpider):
+class networkSWRSpider(base.baseSpider):
     network = 'swr'
 
     custom_settings = {

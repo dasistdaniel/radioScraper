@@ -1,6 +1,6 @@
 import radioscraper.spiders.baseSpiders.baseSpider as base
 
-class ndrSpider(base.baseSpider):
+class networkNDRSpider(base.baseSpider):
     network = 'ndr'
     def get_loop(self, response):
         return response.css('li.program')

@@ -1,6 +1,6 @@
-import radioscraper.spiders.baseSpiders.baseWDR as wdr
+import radioscraper.spiders.baseSpiders.baseWDR as network
 
-class einsliveSpider(wdr.wdrSpider):
+class stationSpider(network.networkWDRSpider):
     name = "wdr-einslive"
     station = "EinsLive"
     start_urls = ['https://www1.wdr.de/radio/1live/on-air/1live-playlist/index.html']
