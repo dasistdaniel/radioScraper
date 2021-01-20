@@ -10,4 +10,4 @@ class stationSpider(network.networkMDRSpider):
         return self.gerdatetoiso(json.loads(response.text)["Songs"][item]["starttime"][-10:])
     
     def get_time(self, response, item, counter):
-        return json.loads(response.text)["Songs"][item]["starttime"][0:5] + ':00'
+        return json.loads(response.text)["Songs"][item]["starttime"][0:5]

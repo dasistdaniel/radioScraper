@@ -11,10 +11,10 @@ class networkWDRSpider(base.baseSpider):
     
     def get_time(self, response, item, counter):
         datetime = item.css('th::text').extract()
-        return datetime[1].split(" ")[0].replace(".", ":") + ":00"
+        return datetime[1].split(" ")[0].replace(".", ":")
 
     def get_artist(self, response, item, counter):
-        return item.css('td:nth-child(3)::text').extract_first().strip().lower()
+        return item.css('td:nth-child(3)::text').extract_first()
 
     def get_title(self, response, item, counter):
-        return item.css('td:nth-child(2)::text').extract_first().strip().lower()
+        return item.css('td:nth-child(2)::text').extract_first()

@@ -19,10 +19,10 @@ class stationSpider(network.networkRBSpider):
         return date.strftime("%Y-%m-%d")
     
     def get_time(self, response, item, counter):
-        return item.css("td:nth-child(1)>span::text").extract_first()# + ":00"
+        return item.css("td:nth-child(1)>span::text").extract_first()
 
     def get_artist(self, response, item, counter):
-        return item.css('td:nth-child(2)::text').extract_first().strip().lower()
+        return item.css('td:nth-child(2)::text').extract_first()
 
     def get_title(self, response, item, counter):
-        return item.css('td:nth-child(3)::text').extract_first().strip().lower()
+        return item.css('td:nth-child(3)::text').extract_first()

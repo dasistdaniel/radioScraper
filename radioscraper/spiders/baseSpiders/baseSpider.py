@@ -22,7 +22,7 @@ class baseSpider(scrapy.Spider):
                     'station': self.station,
                     'date': date,
                     'time': time,
-                    'artist': artist,
-                    'title': title,
+                    'artist': artist.strip().lower(),
+                    'title': title.strip().lower(),
                 } 
                 counter = counter + 1

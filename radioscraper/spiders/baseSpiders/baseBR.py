@@ -10,10 +10,10 @@ class networkBRSpider(base.baseSpider):
     
     def get_time(self, response, item, counter):
         css = f"dt.time:nth-child({1 + counter * 2})::text"
-        return response.css(css).extract_first() + ":00"
+        return response.css(css).extract_first()
 
     def get_artist(self, response, item, counter):
-        return item.css('ul > li > span:nth-child(1)::text').extract_first().strip().lower()
+        return item.css('ul > li > span:nth-child(1)::text').extract_first()
 
     def get_title(self, response, item, counter):
-        return item.css('ul > li > span:nth-child(2)::text').extract_first().strip().lower()
+        return item.css('ul > li > span:nth-child(2)::text').extract_first()

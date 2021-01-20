@@ -17,7 +17,7 @@ class networkMDRSpider(base.baseSpider):
         return json.loads(response.text)["Songs"][item]["starttime"][-8:]
 
     def get_artist(self, response, item, counter):
-        return json.loads(response.text)["Songs"][item]["interpret"].lower()
+        return json.loads(response.text)["Songs"][item]["interpret"]
 
     def get_title(self, response, item, counter):
-        return json.loads(response.text)["Songs"][item]["title"].lower()
+        return json.loads(response.text)["Songs"][item]["title"]

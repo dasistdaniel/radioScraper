@@ -14,9 +14,9 @@ class networkHRSpider(base.baseSpider):
         except: return None
 
     def get_artist(self, response, item, counter):
-        try: return item.css('div:nth-child(2) > span:nth-child(2) > span:nth-child(1) > span:nth-child(1)::text').extract_first().strip().lower()
+        try: return item.css('div:nth-child(2) > span:nth-child(2) > span:nth-child(1) > span:nth-child(1)::text').extract_first()
         except: return None
 
     def get_title(self, response, item, counter):
-        try: return item.css('div:nth-child(2) > span:nth-child(1)::text').extract_first().strip().lower()
+        try: return item.css('div:nth-child(2) > span:nth-child(1)::text').extract_first()
         except: return None

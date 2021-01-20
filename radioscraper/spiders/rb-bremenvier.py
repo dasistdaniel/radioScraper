@@ -14,10 +14,10 @@ class stationSpider(network.networkRBSpider):
         return response.css('#playlistsearch-searchDate::attr(value)').extract_first()
 
     def get_time(self, response, item, counter):
-        return item.css("td:nth-child(1)>div>span::text").extract_first() + ":00"
+        return item.css("td:nth-child(1)>div>span::text").extract_first()
 
     def get_artist(self, response, item, counter):
-        return item.css('td:nth-child(2)>div::text').extract_first().strip().lower()
+        return item.css('td:nth-child(2)>div::text').extract_first()
 
     def get_title(self, response, item, counter):
-        return item.css('td:nth-child(3)>div::text').extract_first().strip().lower()    
+        return item.css('td:nth-child(3)>div::text').extract_first()

@@ -6,8 +6,8 @@ class stationSpider(network.networkBRSpider):
     start_urls = ['https://www.br.de/puls/welle116.html']
 
     def get_artist(self, response, item, counter):
-        data = item.css('ul > li > span:nth-child(1)::text').extract_first().strip().lower()
-        if data != 'puls':
+        data = item.css('ul > li > span:nth-child(1)::text').extract_first()
+        if data.strip().lower() != 'puls':
             return data
         else:
             return None

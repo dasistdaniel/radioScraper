@@ -9,10 +9,10 @@ class networkRBBSpider(base.baseSpider):
         return self.gerdatetoiso(item.css('td:nth-child(1)::text').extract_first())
     
     def get_time(self, response, item, counter):
-        return item.css('td:nth-child(2)::text').extract_first() + ":00"
+        return item.css('td:nth-child(2)::text').extract_first()
 
     def get_artist(self, response, item, counter):
-        return item.css('td:nth-child(3)::text').extract_first().strip().lower()
+        return item.css('td:nth-child(3)::text').extract_first()
 
     def get_title(self, response, item, counter):
-        return item.css('td:nth-child(4)::text').extract_first().strip().lower()
+        return item.css('td:nth-child(4)::text').extract_first()
