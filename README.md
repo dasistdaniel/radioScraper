@@ -73,14 +73,14 @@ Radiosendern auszulesen und die Daten in einem einfachen JSON Format bereitzuste
 - ![Awesome Badges](https://img.shields.io/badge/no%20playlist-red.svg) Unser Ding
 
 ### Südwestrundfunk (SWR)
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) Dasding
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) SWR1 Baden-Württemberg
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) SWR1 Rheinland-Pfalz
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) SWR2
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) SWR3
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) SWR4 Baden-Württemberg
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) SWR4 Rheinland-Pfalz
-- ![Awesome Badges](https://img.shields.io/badge/not%20yet%20implented-blue.svg) SWR Aktuell
+- ![Awesome Badges](https://img.shields.io/badge/working-green.svg) Dasding
+- ![Awesome Badges](https://img.shields.io/badge/working-green.svg) SWR1 Baden-Württemberg
+- ![Awesome Badges](https://img.shields.io/badge/working-green.svg) SWR1 Rheinland-Pfalz
+- ![Awesome Badges](https://img.shields.io/badge/working-green.svg) SWR2
+- ![Awesome Badges](https://img.shields.io/badge/working-green.svg) SWR3
+- ![Awesome Badges](https://img.shields.io/badge/working-green.svg) SWR4 Baden-Württemberg
+- ![Awesome Badges](https://img.shields.io/badge/working-green.svg) SWR4 Rheinland-Pfalz
+- ![Awesome Badges](https://img.shields.io/badge/no%20playlist-red.svg) SWR Aktuell
 
 ### Westdeutscher Rundfunk Köln (WDR)
 - ![Awesome Badges](https://img.shields.io/badge/working-green.svg) 1 Live
