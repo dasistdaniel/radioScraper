@@ -10,7 +10,7 @@ class networkHRSpider(base.baseSpider):
         except: return None
 
     def get_time(self, response, item, counter):
-        try: return item.css('.c-epgBroadcast__startTime > time::text').extract_first() + ":00"
+        try: return item.css('.c-epgBroadcast__startTime > time::text').extract_first()
         except: return None
 
     def get_artist(self, response, item, counter):

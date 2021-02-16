@@ -9,7 +9,7 @@ class networkNDRSpider(base.baseSpider):
         return self.gerdatetoiso(response.css('option:checked::text').extract_first())
     
     def get_time(self, response, item, counter):
-        return item.css('div.timeandplay > strong::text').extract_first() + ":00"
+        return item.css('div.timeandplay > strong::text').extract_first()
 
     def get_artist(self, response, item, counter):
         return item.css('span.artist::text').extract_first()

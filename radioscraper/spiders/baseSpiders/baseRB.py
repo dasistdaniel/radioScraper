@@ -9,7 +9,7 @@ class networkRBSpider(base.baseSpider):
         return response.css('#titelsuche > div:nth-child(2) > select > option:nth-child(1)::attr(value)').extract_first().strip()
 
     def get_time(self, response, item, counter):
-        return item.css("td:nth-child(1)::text").extract_first() + ":00"
+        return item.css("td:nth-child(1)::text").extract_first()
 
     def get_artist(self, response, item, counter):
         return item.css('td:nth-child(2)::text').extract_first()
