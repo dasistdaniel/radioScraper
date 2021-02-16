@@ -9,7 +9,7 @@ class stationSpider(network.networkRBSpider):
         return response.css('tr')
 
     def get_date(self, response, item, counter):
-        return "dea"
+        return response.css('#playlistsearch-searchDate::attr(value)').extract_first()
 
     def get_time(self, response, item, counter):
         return item.css("td:nth-child(1) > div > span::text").extract_first()
