@@ -9,7 +9,7 @@ class stationSpider(network.networkBRSpider):
         return response.css('div.plElement')
 
     def get_date(self, response, item, counter):
-        return response.css('h2::text').extract_first().strip()[-10:]
+        return self.gerdatetoiso(response.css('h2::text').extract_first().strip()[-10:])
 
     def get_time(self, response, item, counter):
         return item.css('.plTime::text').extract_first()
