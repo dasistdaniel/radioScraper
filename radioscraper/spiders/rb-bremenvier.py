@@ -3,7 +3,7 @@ import locale
 import radioscraper.spiders.baseSpiders.baseRB as network
 
 class stationSpider(network.networkRBSpider):
-    name = "rb-bemen4"
+    name = "rb-bremen4"
     station = "Bremen Vier"
     start_urls = ['https://www.bremenvier.de/programm/titelsuche-100.html']
 
