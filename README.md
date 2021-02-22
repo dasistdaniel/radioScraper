@@ -1,3 +1,6 @@
+Moved to Codeberg
+[https://codeberg.org/dasistdaniel/radioScraper]
+
 # radioScraper
 radioScraper ist ein kleine Projekt um die Playlist Webseiten von deutschen 
 Radiosendern auszulesen und die Daten in einem einfachen JSON Format bereitzustellen.
